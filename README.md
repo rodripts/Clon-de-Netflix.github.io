@@ -1,2 +1,3 @@
 # Clon-de-Netflix
-Clon de netflix de la pantalla principal
+Clon de netflix de la pantalla principal solo para Desktop
+
