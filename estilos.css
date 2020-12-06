@@ -38,10 +38,10 @@ header {
     height: 80px;
 }
 .netflix-icon img {
-    width: 93px;
+    width: 80px;
     height: 80px;
-    margin-left: 48px;
-    margin-right: 30px;
+    margin-left: 60px;
+    margin-right: 40px;
 }
 .lupa img {
     width: 20px;
@@ -189,4 +189,68 @@ header {
     width: 100%;
     height: 100%;
 }
-@media screen and (max-width: 1160px) {} 
+@media screen and (max-width: 425px) {
+    header {
+        height: 50px;
+    }
+    .submenu-left {
+        display: none;
+    }
+    .menu-left {
+        justify-content: center;
+        align-items: center;
+    }
+    .netflix-icon img {
+        width: 60px;
+        height: 50px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .lupa img {
+        width: 15px;
+    }
+    .gift img {
+       width: 19px; 
+    }
+    .bell img {
+        width: 20px;
+    }
+    .picture {
+        width: 25px;
+        border-radius: 5px;
+    }
+    .arrow-down {
+        width: 10px;
+        margin-left: 5px;
+    }   
+    .text-description {
+        font-size: 12px;
+        top: 50px;
+        left: 20px;
+    }
+    .movie-icon {
+        max-width: 230px;
+    }
+    .buttons button {
+        height: 30px;
+        font-size: 13px;
+    }
+    .play-button {
+        width: 130px;
+    }
+    .info-button {
+        width: 180px;
+    }
+    .text-popular {
+        font-size: 16px;
+        top: 265px;
+        padding: 0 25px;
+    }
+    .container-movie-popular {
+        top: 290px;
+        padding-left: 25px;
+    }
+    .next-button {
+        right: 20px;
+    }
+}
